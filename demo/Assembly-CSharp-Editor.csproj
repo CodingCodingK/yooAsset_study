@@ -52,8 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\GameScript\Editor\Encryption.cs" />
-     <Compile Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\ThirdParty\StreamingAssetsHelper\Editor\StreamingAssetsHelperEditor.cs" />
+     <Compile Include="Assets\Space Shooter\ThirdParty\StreamingAssetsHelper\Editor\StreamingAssetsHelperEditor.cs" />
+     <Compile Include="Assets\Space Shooter\GameScript\Editor\Encryption.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -283,19 +283,19 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -646,55 +646,49 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="YooAsset.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/YooAsset.Editor.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.CacheServer">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ScriptableBuildPipeline">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
- </Reference>
- <Reference Include="YooAsset">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/YooAsset.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ScriptableBuildPipeline.Editor">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -702,29 +696,37 @@
       <Project>{4a5932c1-8c92-df86-54bb-28617e4db357}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="UniSingleton.csproj">
-      <Project>{58105362-2405-c338-c478-e1f2a720cd19}</Project>
-      <Name>UniSingleton</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniEvent.csproj">
-      <Project>{a8de3038-6477-4403-74bd-0b8133fbb779}</Project>
-      <Name>UniEvent</Name>
+    <ProjectReference Include="UniMachine.csproj">
+      <Project>{90cd7cf0-8647-761e-8b42-169c060547bc}</Project>
+      <Name>UniMachine</Name>
     </ProjectReference>
     <ProjectReference Include="UniWindow.csproj">
       <Project>{36a7e94d-77b5-2947-c488-6e22d717b762}</Project>
       <Name>UniWindow</Name>
     </ProjectReference>
-    <ProjectReference Include="UniMachine.csproj">
-      <Project>{90cd7cf0-8647-761e-8b42-169c060547bc}</Project>
-      <Name>UniMachine</Name>
+    <ProjectReference Include="YooAsset.Editor.csproj">
+      <Project>{efc32935-9909-3867-d974-7fc835d74553}</Project>
+      <Name>YooAsset.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UniPooling.csproj">
-      <Project>{afa65fd0-310c-947c-f88d-903b5f084fb8}</Project>
-      <Name>UniPooling</Name>
+    <ProjectReference Include="UniSingleton.csproj">
+      <Project>{58105362-2405-c338-c478-e1f2a720cd19}</Project>
+      <Name>UniSingleton</Name>
     </ProjectReference>
     <ProjectReference Include="UniUtility.csproj">
       <Project>{24aa13ce-7832-6da5-a357-8a302ea05cae}</Project>
       <Name>UniUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniEvent.csproj">
+      <Project>{a8de3038-6477-4403-74bd-0b8133fbb779}</Project>
+      <Name>UniEvent</Name>
+    </ProjectReference>
+    <ProjectReference Include="YooAsset.csproj">
+      <Project>{b60f1b64-f63b-e73e-af74-6f958d42931f}</Project>
+      <Name>YooAsset</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniPooling.csproj">
+      <Project>{afa65fd0-310c-947c-f88d-903b5f084fb8}</Project>
+      <Name>UniPooling</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

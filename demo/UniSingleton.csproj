@@ -52,12 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniLogger.cs" />
-     <Compile Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\SingletonInstance.cs" />
-     <Compile Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniSingleton.cs" />
-     <Compile Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\ISingleton.cs" />
-     <Compile Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniSingletonDriver.cs" />
-     <None Include="Assets\Samples\YooAsset\1.4.12\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniSingleton.asmdef" />
+     <Compile Include="Assets\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniSingletonDriver.cs" />
+     <Compile Include="Assets\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniSingleton.cs" />
+     <Compile Include="Assets\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\ISingleton.cs" />
+     <Compile Include="Assets\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\SingletonInstance.cs" />
+     <Compile Include="Assets\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniLogger.cs" />
+     <None Include="Assets\Space Shooter\ThirdParty\UniFramework\UniSingleton\Runtime\UniSingleton.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -287,16 +287,16 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Github/assetbundle_study/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -643,17 +643,18 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
- <Reference Include="YooAsset">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/YooAsset.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Github/assetbundle_study/demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Github/yooAssetDemo/demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="YooAsset.csproj">
+      <Project>{b60f1b64-f63b-e73e-af74-6f958d42931f}</Project>
+      <Name>YooAsset</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

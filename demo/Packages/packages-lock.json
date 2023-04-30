@@ -1,17 +1,5 @@
 {
   "dependencies": {
-    "com.tuyoogame.yooasset": {
-      "version": "1.4.12",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.20.2",
-        "com.unity.modules.assetbundle": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
-      },
-      "url": "https://package.openupm.cn"
-    },
     "com.unity.collab-proxy": {
       "version": "1.15.15",
       "depth": 0,
@@ -54,8 +42,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.20.2",
-      "depth": 1,
+      "version": "1.19.6",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
