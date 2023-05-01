@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 3383122817
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d5f7d0b66f5184709b05250ef8ddbbf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3d0afea6bae2ccccf19b883b5e6623a2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 014c1f9b87e247446bd7d558f8bf143e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Space Shooter/GameRes/Effect/Explosions/explosion_player.prefab
+- Assets/Space Shooter/GameRes/Effect/Explosions/explosion_asteroid.prefab
+- Assets/Space Shooter/GameRes/Effect/Explosions/explosion_enemy.prefab
+Dependencies:
+- C:/Github/yooAssetDemo/demo/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_space
+  shooter_gameres_audio.bundle

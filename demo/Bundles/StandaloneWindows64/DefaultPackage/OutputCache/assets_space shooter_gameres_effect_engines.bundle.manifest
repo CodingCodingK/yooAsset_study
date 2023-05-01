@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2901352393
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 771d37150957000b7f2a0be9b9c55dad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b07e95eec8d55770ffce51414c7b0714
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Space Shooter/GameRes/Effect/Engines/engines_enemy.prefab
+- Assets/Space Shooter/GameRes/Effect/Engines/engines_player.prefab
+Dependencies:
+- C:/Github/yooAssetDemo/demo/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_space
+  shooter_gameart_effect.bundle

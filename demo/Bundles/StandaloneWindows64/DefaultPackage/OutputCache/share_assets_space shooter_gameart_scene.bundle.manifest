@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3172478380
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74bc05946106578c665f16f11cc810e2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Space Shooter/GameArt/Scene/tile_nebula_green_dff.tif
+- Assets/Space Shooter/GameArt/Scene/tile_nebula_green_dff.mat
+Dependencies: []

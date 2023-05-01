@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638184542659225012
-    m_Hash: 3503499460
+      ticks: 638185425698756265
+    m_Hash: 1525747398
   m_LockFileStatus:
     m_FilePath: C:/Github/yooAssetDemo/demo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638184542659264893
-    m_Hash: 3775982987
+      ticks: 638185425698756265
+    m_Hash: 918976711
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

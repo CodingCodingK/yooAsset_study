@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3614632089
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 051ef35d1eae34bc27b35c5670e17363
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Space Shooter/GameRes/Audio/sound_weapon_player.wav
+- Assets/Space Shooter/GameRes/Audio/sound_weapon_enemy.wav
+- Assets/Space Shooter/GameRes/Audio/music_background.wav
+- Assets/Space Shooter/GameRes/Audio/sound_explosion_player.wav
+- Assets/Space Shooter/GameRes/Audio/sound_explosion_enemy.wav
+- Assets/Space Shooter/GameRes/Audio/sound_explosion_asteroid.wav
+Dependencies: []

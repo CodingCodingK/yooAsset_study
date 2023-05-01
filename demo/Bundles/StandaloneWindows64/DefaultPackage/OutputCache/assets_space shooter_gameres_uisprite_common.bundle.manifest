@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 4015889147
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aaffd8ca43fb1d4fd54f440de5522a6f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Space Shooter/GameRes/UISprite/common/buttons/button1.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/plus.png
+- Assets/Space Shooter/GameRes/UISprite/common/window/window_transparent.png
+- Assets/Space Shooter/GameRes/UISprite/common/bars/bar_blue.png
+- Assets/Space Shooter/GameRes/UISprite/common/buttons/rocket.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow_left.png
+- Assets/Space Shooter/GameRes/UISprite/common/buttons/button_pushed.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow1_right.png
+- Assets/Space Shooter/GameRes/UISprite/common/buttons/pause.png
+- Assets/Space Shooter/GameRes/UISprite/common/bars/bar_blue1.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/back_arrow.png
+- Assets/Space Shooter/GameRes/UISprite/common/buttons/bullets.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/long_arrow_left.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow1_left.png
+- Assets/Space Shooter/GameRes/UISprite/common/bars/progress_bar_background.png
+- Assets/Space Shooter/GameRes/UISprite/common/bars/progress_bar.png
+- Assets/Space Shooter/GameRes/UISprite/common/buttons/button_active.png
+- Assets/Space Shooter/GameRes/UISprite/common/window/window_transparent1.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow_right.png
+- Assets/Space Shooter/GameRes/UISprite/common/arrows/long_arrow_right.png
+Dependencies: []
