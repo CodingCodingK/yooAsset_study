@@ -33,5 +33,16 @@ public class Boot : MonoBehaviour
 
 		// 开始补丁更新流程
 		PatchManager.Instance.Run(PlayMode);
+		
+		
+	}
+	
+	// Task加载方式
+	async void Test()
+	{
+		var package = YooAssets.GetPackage("DefaultPackage");
+		AssetOperationHandle handle = package.LoadAssetAsync<AudioClip>("Assets/GameRes/Audio/bgMusic.mp3");
+		await handle.Task;
+		AudioClip audioClip = handle.AssetObject as AudioClip;  
 	}
 }
