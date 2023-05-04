@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 788659546
+CRC: 358496124
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cff4d815ac8395a8dc4b5857fe95c883
+    Hash: 1bdd6a76a2bd718322c87c0805e8e443
   TypeTreeHash:
     serializedVersion: 2
     Hash: d5bfb81ed24a181cb5fe4d06175ccbec
@@ -49,5 +49,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Space Shooter/GameRes/Scene/scene_home.unity
 Dependencies:
+- C:/Github/yooAssetDemo/demo/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_space
+  shooter_gameres_scene_scene_homesettings.bundle
 - C:/Github/yooAssetDemo/demo/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_space
   shooter_gameart_scene.bundle

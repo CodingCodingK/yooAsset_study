@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4146665841
+CRC: 4187939909
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -29,42 +29,46 @@ AssetBundleManifest:
     Info_6:
       Name: assets_space shooter_gameres_scene_scene_home.bundle
       Dependencies:
-        Dependency_0: share_assets_space shooter_gameart_scene.bundle
+        Dependency_0: assets_space shooter_gameres_scene_scene_homesettings.bundle
+        Dependency_1: share_assets_space shooter_gameart_scene.bundle
     Info_7:
-      Name: assets_space shooter_gameres_uiimage.bundle
+      Name: assets_space shooter_gameres_scene_scene_homesettings.bundle
       Dependencies: {}
     Info_8:
+      Name: assets_space shooter_gameres_uiimage.bundle
+      Dependencies: {}
+    Info_9:
       Name: assets_space shooter_gameres_uipanel_uiabout.bundle
       Dependencies:
         Dependency_0: assets_space shooter_gameres_uisprite_common.bundle
         Dependency_1: share_assets_space shooter_gameart_uifont.bundle
-    Info_9:
+    Info_10:
       Name: assets_space shooter_gameres_uipanel_uibattle.bundle
       Dependencies:
         Dependency_0: assets_space shooter_gameres_uisprite_common.bundle
         Dependency_1: share_assets_space shooter_gameart_uifont.bundle
-    Info_10:
+    Info_11:
       Name: assets_space shooter_gameres_uipanel_uicanvas.bundle
       Dependencies: {}
-    Info_11:
+    Info_12:
       Name: assets_space shooter_gameres_uipanel_uihome.bundle
       Dependencies:
         Dependency_0: assets_space shooter_gameres_uisprite_common.bundle
         Dependency_1: share_assets_space shooter_gameart_uifont.bundle
-    Info_12:
+    Info_13:
       Name: assets_space shooter_gameres_uipanel_uiloading.bundle
       Dependencies:
         Dependency_0: assets_space shooter_gameres_uiimage.bundle
         Dependency_1: share_assets_space shooter_gameart_uifont.bundle
-    Info_13:
+    Info_14:
       Name: assets_space shooter_gameres_uisprite_common.bundle
       Dependencies: {}
-    Info_14:
+    Info_15:
       Name: share_assets_space shooter_gameart_effect.bundle
       Dependencies: {}
-    Info_15:
+    Info_16:
       Name: share_assets_space shooter_gameart_scene.bundle
       Dependencies: {}
-    Info_16:
+    Info_17:
       Name: share_assets_space shooter_gameart_uifont.bundle
       Dependencies: {}

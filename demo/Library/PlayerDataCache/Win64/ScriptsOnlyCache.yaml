@@ -9,11 +9,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.UI.dll:
-    - UnityEngine.UI.Button
-    - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
     YooAsset.Editor.dll:
     - YooAsset.Editor.AssetBundleBuilderSetting
     - YooAsset.Editor.AssetBundleBuilderWindow
@@ -50,7 +45,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2934}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157

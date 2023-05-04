@@ -11,7 +11,7 @@
             "AssetTags": [],
             "BundleID": 0,
             "DependIDs": [
-                15
+                16
             ]
         },
         {
@@ -20,7 +20,7 @@
             "AssetTags": [],
             "BundleID": 0,
             "DependIDs": [
-                15
+                16
             ]
         },
         {
@@ -85,7 +85,7 @@
             "BundleID": 2,
             "DependIDs": [
                 3,
-                15
+                16
             ]
         },
         {
@@ -102,7 +102,7 @@
             "BundleID": 2,
             "DependIDs": [
                 3,
-                15
+                16
             ]
         },
         {
@@ -160,7 +160,7 @@
             "AssetTags": [],
             "BundleID": 5,
             "DependIDs": [
-                16,
+                17,
                 3
             ]
         },
@@ -170,208 +170,216 @@
             "AssetTags": [],
             "BundleID": 6,
             "DependIDs": [
-                16
+                17,
+                7
             ]
+        },
+        {
+            "Address": "scene_homeSettings",
+            "AssetPath": "Assets/Space Shooter/GameRes/Scene/scene_homeSettings.lighting",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependIDs": []
         },
         {
             "Address": "Space",
             "AssetPath": "Assets/Space Shooter/GameRes/UIImage/Space.jpg",
             "AssetTags": [],
-            "BundleID": 7,
+            "BundleID": 8,
             "DependIDs": []
         },
         {
             "Address": "UIAbout",
             "AssetPath": "Assets/Space Shooter/GameRes/UIPanel/UIAbout.prefab",
             "AssetTags": [],
-            "BundleID": 8,
+            "BundleID": 9,
             "DependIDs": [
-                13,
-                17
+                14,
+                18
             ]
         },
         {
             "Address": "UIBattle",
             "AssetPath": "Assets/Space Shooter/GameRes/UIPanel/UIBattle.prefab",
             "AssetTags": [],
-            "BundleID": 9,
+            "BundleID": 10,
             "DependIDs": [
-                13,
-                17
+                14,
+                18
             ]
         },
         {
             "Address": "UICanvas",
             "AssetPath": "Assets/Space Shooter/GameRes/UIPanel/UICanvas.prefab",
             "AssetTags": [],
-            "BundleID": 10,
+            "BundleID": 11,
             "DependIDs": []
         },
         {
             "Address": "UIHome",
             "AssetPath": "Assets/Space Shooter/GameRes/UIPanel/UIHome.prefab",
             "AssetTags": [],
-            "BundleID": 11,
+            "BundleID": 12,
             "DependIDs": [
-                17,
-                13
+                18,
+                14
             ]
         },
         {
             "Address": "UILoading",
             "AssetPath": "Assets/Space Shooter/GameRes/UIPanel/UILoading.prefab",
             "AssetTags": [],
-            "BundleID": 12,
+            "BundleID": 13,
             "DependIDs": [
-                17,
-                7
+                18,
+                8
             ]
         },
         {
             "Address": "arrow1_left",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow1_left.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "arrow1_right",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow1_right.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "arrow_left",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow_left.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "arrow_right",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow_right.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "back_arrow",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/back_arrow.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "long_arrow_left",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/long_arrow_left.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "long_arrow_right",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/long_arrow_right.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "plus",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/arrows/plus.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "bar_blue",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/bars/bar_blue.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "bar_blue1",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/bars/bar_blue1.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "progress_bar",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/bars/progress_bar.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "progress_bar_background",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/bars/progress_bar_background.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "bullets",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/buttons/bullets.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "button1",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/buttons/button1.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "button_active",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/buttons/button_active.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "button_pushed",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/buttons/button_pushed.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "pause",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/buttons/pause.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "rocket",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/buttons/rocket.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "window_transparent",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/window/window_transparent.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "window_transparent1",
             "AssetPath": "Assets/Space Shooter/GameRes/UISprite/common/window/window_transparent1.png",
             "AssetTags": [],
-            "BundleID": 13,
+            "BundleID": 14,
             "DependIDs": []
         },
         {
             "Address": "about",
             "AssetPath": "Assets/Space Shooter/GameRes/Config/about.txt",
             "AssetTags": [],
-            "BundleID": 14,
+            "BundleID": 15,
             "DependIDs": []
         }
     ],
@@ -442,13 +450,25 @@
         },
         {
             "BundleName": "assets_space shooter_gameres_scene_scene_home.bundle",
-            "FileHash": "9a4572b5ccda71b9ed34c3f732d479cb",
-            "FileCRC": "da001395",
-            "FileSize": 112609,
+            "FileHash": "08f9bf505ccbbb68a8f8e75ad58564eb",
+            "FileCRC": "ce7b635e",
+            "FileSize": 112560,
             "IsRawFile": false,
             "LoadMethod": 0,
             "Tags": [],
             "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_space shooter_gameres_scene_scene_homesettings.bundle",
+            "FileHash": "8cc831170fab2fa9fc28f4295aa1742a",
+            "FileCRC": "98ae5188",
+            "FileSize": 1395,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                6
+            ]
         },
         {
             "BundleName": "assets_space shooter_gameres_uiimage.bundle",
@@ -459,7 +479,7 @@
             "LoadMethod": 1,
             "Tags": [],
             "ReferenceIDs": [
-                12
+                13
             ]
         },
         {
@@ -494,9 +514,9 @@
         },
         {
             "BundleName": "assets_space shooter_gameres_uipanel_uihome.bundle",
-            "FileHash": "0a5ca323284a09cebb62c23769fb5643",
-            "FileCRC": "b914ad59",
-            "FileSize": 6678,
+            "FileHash": "9a05652b1f3bf5a6dbabfd63b7c3b2ed",
+            "FileCRC": "5609873d",
+            "FileSize": 7192,
             "IsRawFile": false,
             "LoadMethod": 0,
             "Tags": [],
@@ -521,9 +541,9 @@
             "LoadMethod": 0,
             "Tags": [],
             "ReferenceIDs": [
-                8,
                 9,
-                11
+                10,
+                12
             ]
         },
         {
@@ -571,10 +591,10 @@
             "LoadMethod": 0,
             "Tags": [],
             "ReferenceIDs": [
-                8,
                 9,
-                11,
-                12
+                10,
+                12,
+                13
             ]
         }
     ]

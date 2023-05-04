@@ -2,8 +2,8 @@
     "Summary": {
         "YooVersion": "",
         "UnityVersion": "2020.3.33f1",
-        "BuildDate": "2023/4/30 21:12:25",
-        "BuildSeconds": 7,
+        "BuildDate": "2023/5/5 1:09:33",
+        "BuildSeconds": 6,
         "BuildTarget": 19,
         "BuildPipeline": 0,
         "BuildMode": 0,
@@ -16,10 +16,10 @@
         "CompressOption": 2,
         "DisableWriteTypeTree": false,
         "IgnoreTypeTreeChanges": true,
-        "AssetFileTotalCount": 108,
-        "MainAssetTotalCount": 48,
-        "AllBundleTotalCount": 18,
-        "AllBundleTotalSize": 5845494,
+        "AssetFileTotalCount": 109,
+        "MainAssetTotalCount": 49,
+        "AllBundleTotalCount": 19,
+        "AllBundleTotalSize": 5847354,
         "EncryptedBundleTotalCount": 2,
         "EncryptedBundleTotalSize": 2123322,
         "RawBundleTotalCount": 1,
@@ -347,14 +347,26 @@
             "AssetGUID": "d1f972c576a5e20448964044e23ac974",
             "AssetTags": [],
             "MainBundleName": "assets_space shooter_gameres_scene_scene_home.bundle",
-            "MainBundleSize": 112609,
+            "MainBundleSize": 112560,
             "DependBundles": [
-                "share_assets_space shooter_gameart_scene.bundle"
+                "share_assets_space shooter_gameart_scene.bundle",
+                "assets_space shooter_gameres_scene_scene_homesettings.bundle"
             ],
             "DependAssets": [
                 "Assets/Space Shooter/GameArt/Scene/tile_nebula_green_dff.tif",
+                "Assets/Space Shooter/GameRes/Scene/scene_homeSettings.lighting",
                 "Assets/Space Shooter/GameArt/Scene/tile_nebula_green_dff.mat"
             ]
+        },
+        {
+            "Address": "scene_homeSettings",
+            "AssetPath": "Assets/Space Shooter/GameRes/Scene/scene_homeSettings.lighting",
+            "AssetGUID": "354e34ba3c76dbc4daf5f8cbed5c93ff",
+            "AssetTags": [],
+            "MainBundleName": "assets_space shooter_gameres_scene_scene_homesettings.bundle",
+            "MainBundleSize": 1395,
+            "DependBundles": [],
+            "DependAssets": []
         },
         {
             "Address": "Space",
@@ -419,7 +431,7 @@
             "AssetGUID": "f33f75c4ce22cf248abf851242ac4363",
             "AssetTags": [],
             "MainBundleName": "assets_space shooter_gameres_uipanel_uihome.bundle",
-            "MainBundleSize": 6678,
+            "MainBundleSize": 7192,
             "DependBundles": [
                 "share_assets_space shooter_gameart_uifont.bundle",
                 "assets_space shooter_gameres_uisprite_common.bundle"
@@ -810,16 +822,32 @@
         },
         {
             "BundleName": "assets_space shooter_gameres_scene_scene_home.bundle",
-            "FileName": "assets_space shooter_gameres_scene_scene_home_9a4572b5ccda71b9ed34c3f732d479cb.bundle",
-            "FileHash": "9a4572b5ccda71b9ed34c3f732d479cb",
-            "FileCRC": "da001395",
-            "FileSize": 112609,
+            "FileName": "assets_space shooter_gameres_scene_scene_home_08f9bf505ccbbb68a8f8e75ad58564eb.bundle",
+            "FileHash": "08f9bf505ccbbb68a8f8e75ad58564eb",
+            "FileCRC": "ce7b635e",
+            "FileSize": 112560,
             "IsRawFile": false,
             "LoadMethod": 0,
             "Tags": [],
             "ReferenceIDs": [],
             "AllBuiltinAssets": [
                 "Assets/Space Shooter/GameRes/Scene/scene_home.unity"
+            ]
+        },
+        {
+            "BundleName": "assets_space shooter_gameres_scene_scene_homesettings.bundle",
+            "FileName": "assets_space shooter_gameres_scene_scene_homesettings_8cc831170fab2fa9fc28f4295aa1742a.bundle",
+            "FileHash": "8cc831170fab2fa9fc28f4295aa1742a",
+            "FileCRC": "98ae5188",
+            "FileSize": 1395,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": [
+                6
+            ],
+            "AllBuiltinAssets": [
+                "Assets/Space Shooter/GameRes/Scene/scene_homeSettings.lighting"
             ]
         },
         {
@@ -832,7 +860,7 @@
             "LoadMethod": 1,
             "Tags": [],
             "ReferenceIDs": [
-                12
+                13
             ],
             "AllBuiltinAssets": [
                 "Assets/Space Shooter/GameRes/UIImage/Space.jpg"
@@ -884,10 +912,10 @@
         },
         {
             "BundleName": "assets_space shooter_gameres_uipanel_uihome.bundle",
-            "FileName": "assets_space shooter_gameres_uipanel_uihome_0a5ca323284a09cebb62c23769fb5643.bundle",
-            "FileHash": "0a5ca323284a09cebb62c23769fb5643",
-            "FileCRC": "b914ad59",
-            "FileSize": 6678,
+            "FileName": "assets_space shooter_gameres_uipanel_uihome_9a05652b1f3bf5a6dbabfd63b7c3b2ed.bundle",
+            "FileHash": "9a05652b1f3bf5a6dbabfd63b7c3b2ed",
+            "FileCRC": "5609873d",
+            "FileSize": 7192,
             "IsRawFile": false,
             "LoadMethod": 0,
             "Tags": [],
@@ -920,9 +948,9 @@
             "LoadMethod": 0,
             "Tags": [],
             "ReferenceIDs": [
-                8,
                 9,
-                11
+                10,
+                12
             ],
             "AllBuiltinAssets": [
                 "Assets/Space Shooter/GameRes/UISprite/common/arrows/arrow1_left.png",
@@ -1011,10 +1039,10 @@
             "LoadMethod": 0,
             "Tags": [],
             "ReferenceIDs": [
-                8,
                 9,
-                11,
-                12
+                10,
+                12,
+                13
             ],
             "AllBuiltinAssets": [
                 "Assets/Space Shooter/GameArt/UIFont/zekton free.ttf"
