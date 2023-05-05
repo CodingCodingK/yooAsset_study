@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 814f6a7e3ec8a40aaa3a2057e2695924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScrollSpeed: 5
+  ScrollSpeed: 0
   TileSizeZ: 30
 --- !u!23 &6334945670468298449
 MeshRenderer:

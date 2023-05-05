@@ -89,7 +89,7 @@ public class Boot : MonoBehaviour
 		}
 
 		string packageVersion = operation.PackageVersion;
-		Debug.Log($"Updated package Version : {packageVersion}");
+		Debug.Log($"获取资源版本成功 : {packageVersion}");
 
 #endregion
 
@@ -116,19 +116,59 @@ public class Boot : MonoBehaviour
 #endregion
 
 		#region 加载资源
-
+		// 这里不能直接用Single，销毁掉Boot场景导致协程会被中止！！！
 		// 加载场景
-		string location = "scene_home";
+		DontDestroyOnLoad(this);
 		var sceneMode = UnityEngine.SceneManagement.LoadSceneMode.Single;
-		bool activateOnLoad = true;
-		SceneOperationHandle handle = package.LoadSceneAsync(location, sceneMode, activateOnLoad);
+		SceneOperationHandle handle = YooAssets.LoadSceneAsync("scene_home", sceneMode, true);
 		yield return handle;
 		Debug.Log($"Scene name is {handle.SceneObject.name}");
+		
+		// 加载prefab
+		AssetOperationHandle handle2 = package.LoadAssetAsync<GameObject>("UICanvas");
+		yield return handle2;
+		GameObject canvas = handle2.InstantiateSync();
+		Debug.Log($"Prefab name is {canvas.name}");
+		AssetOperationHandle handle3 = package.LoadAssetAsync<GameObject>("UIHome");
+		yield return handle3;
+		GameObject home = handle3.InstantiateSync();
+		home.transform.parent = canvas.transform;
+		home.GetComponent<RectTransform>().offsetMax = new Vector2(0, 0);
+		Debug.Log($"Prefab name is {home.name}");
+		
+		// LoadScene();
+		// LoadPrefab();
+
+		yield return new WaitForSeconds(3);
 
 		#endregion
 
 	}
-
+	
+	async void LoadScene()
+	{
+		var package = YooAssets.GetPackage("DefaultPackage");
+		var sceneMode = UnityEngine.SceneManagement.LoadSceneMode.Single;
+		SceneOperationHandle handle = package.LoadSceneAsync("scene_home", sceneMode, true);
+		await handle.Task;
+		Debug.Log($"Scene name is {handle.SceneObject.name}");
+	} 
+	
+	async void LoadPrefab()
+	{
+		AssetOperationHandle handle = YooAssets.LoadAssetAsync<GameObject>("UICanvas");
+		await handle.Task;
+		GameObject canvas = handle.InstantiateSync();
+		Debug.Log($"Prefab name is {canvas.name}");
+		
+		AssetOperationHandle handle3 = YooAssets.LoadAssetAsync<GameObject>("UIHome");
+		await handle3.Task;
+		GameObject home = handle3.InstantiateSync();
+		home.transform.parent = canvas.transform;
+		home.GetComponent<RectTransform>().offsetMax = new Vector2(0, 0);
+		Debug.Log($"Prefab name is {home.name}");
+	} 
+	
 	IEnumerator Download(ResourcePackage package)
 	{
 		// 创建文件下载器
@@ -175,4 +215,5 @@ public class Boot : MonoBehaviour
 			return StreamingAssetsHelper.FileExists($"{buildinFolderName}/{fileName}");
 		}
 	}
+
 }

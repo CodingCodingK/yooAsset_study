@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 358496124
+CRC: 1313623478
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1bdd6a76a2bd718322c87c0805e8e443
+    Hash: 78cf4d026a93a69e4d0e8b295025971f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d5bfb81ed24a181cb5fe4d06175ccbec
+    Hash: b9cb2a4414f238db3358966be3d08d16
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,8 +29,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
-- Class: 89
-  Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
 - Class: 114
@@ -41,15 +39,9 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 196
   Script: {instanceID: 0}
-- Class: 258
-  Script: {instanceID: 0}
-- Class: 850595691
-  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Space Shooter/GameRes/Scene/scene_home.unity
 Dependencies:
-- C:/Github/yooAssetDemo/demo/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/assets_space
-  shooter_gameres_scene_scene_homesettings.bundle
 - C:/Github/yooAssetDemo/demo/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_assets_space
   shooter_gameart_scene.bundle
